@@ -182,7 +182,6 @@ body {
 .search input:focus {
     outline: none;
     background-color: white;
-
 }
 
 .search p {
@@ -203,11 +202,11 @@ body {
 .tripimg {
     background-color: rgb(224, 201, 224);
     height: 400px;
-    width: 1100px;
+    width: 80%;
     display: flex;
     justify-content: center;
     margin-left: 10%;
-    margin-right: 5%;
+    margin-right: 10%;
     margin-top: 20px;
     border-radius: 30px;
     position: relative;
@@ -339,10 +338,14 @@ body {
 .tour-chennai__card {
     margin-top: 10px;
 }
+.tour-chennai__card h3, .tour-chennai__card p{
+    text-align: center;
+}
 
 .tour-chennai__image {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
     flex-basis: 20%;
     gap: 20px;
     position: relative;
@@ -409,19 +412,29 @@ body {
 }
 
 .explore__image {
+    flex-grow: 1;
     display: flex;
     flex-basis: 20%;
+    flex-wrap: wrap;
     gap: 10px;
     margin-top: 20px;
     position: relative;
+}
+.explore__one, .explore__two, .explore__three{
+    width: 350px;
 }
 
 .explore__one,
 .explore__two,
 .explore__three {
-    /* width: 350px; */
-    /* height: 300px; */
+    width: 350px;
+    height: 300px;
     position: relative;
+}
+.explore__one p,
+.explore__two p,
+.explore__three p {
+    width: 350px;
 }
 
 .explore__two {
@@ -504,19 +517,21 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
-
 .homes {
     display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
 }
-
+.homes h3{
+    width: 220px;
+}
 .home__1 img {
     width: 260px;
     height: 250px;
     border-radius: 10px;
 }
-
 .home__1 img:hover {
     cursor: pointer;
     opacity: 0.75;
@@ -714,6 +729,9 @@ i:hover {
         margin-left: 0;
         width: 100%;
     }
+    .tripimg__mob{
+        width: 100%;
+    }
 
     
     .adventure {
@@ -724,7 +742,7 @@ i:hover {
     .adventure__image {
         display: flex;
         flex-grow: 1;
-        flex-basis: 10%;
+        flex-basis: 20%;
         flex-wrap: wrap;
         gap: 10px;
     }
@@ -872,9 +890,11 @@ i:hover {
         margin-top: 0px;
         margin-bottom: 0;
     }
+    .tripimg__mob{
+        width: 80%;
+    }
  .tripimg__mob img{ 
-        margin-left: 0;
-        width: 800px;
+        width: 60%;
     } 
 
 
