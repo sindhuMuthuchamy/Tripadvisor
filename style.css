@@ -649,7 +649,7 @@ i:hover {
 
 
 /* media queries */
-@media screen and (max-width:1000px) {
+@media screen and (max-width:800px) {
     .body {
         font-size: 11px;
         margin: 0px;
