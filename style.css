@@ -254,6 +254,9 @@ body {
     background-color: rgb(63, 2, 63);
     color: white;
 }
+.tripimg-600{
+    display: none;
+}
 
 /* adventure */
 .adventure {
@@ -732,7 +735,6 @@ i:hover {
     .tripimg__mob{
         width: 100%;
     }
-
     
     .adventure {
         font-size: 14px;
@@ -831,6 +833,7 @@ i:hover {
         margin-left: 20px;
         display: flex;
         flex-direction: column;
+        /* gap: 20px; */
     }
     .travellerchoice-left__text h1, .travellerchoice-left__text p,.travellerchoice-left__text h5{
         padding: 5px;
@@ -880,9 +883,16 @@ i:hover {
     .title__s5 {
         display: block;
     }
+    /* .tripimg{
+        display: flex;
+        flex-direction: column;
+    }
     .tripimg__text{
         width: 200px;
         padding-top: 0;
+    }
+    .tripimg__text__p, .tripimg__text h1{
+        font-size: 12px;
     }
     .tripimg__text__button, 
     .tripimg__text__p, 
@@ -890,12 +900,64 @@ i:hover {
         margin-top: 0px;
         margin-bottom: 0;
     }
-    .tripimg__mob{
+    /* .tripimg__mob{
         width: 80%;
+    } */
+ /* .tripimg__mob img{ 
+        
+        width: 300px; */
+        /* margin-top: 50%; */
+    /* }  */
+    /* .adventure{
+        
+    } */ 
+     .tripimg{
+        display: none;
+     }
+     .tripimg-600{
+        text-align: center;
+        display: block;
+        /* width: 130px; */
+     }
+    .adventure__img1, .adventure__img2, .adventure__img3, .adventure__img4{
+        width: 130px;
     }
- .tripimg__mob img{ 
-        width: 60%;
-    } 
-
+    .adventure__img1 img, .adventure__img2 img, .adventure__img3 img, .adventure__img4 img{
+        width: 130px;
+    }
+    .adventure__img1__h2, .adventure__img2__h2, .adventure__img3__h2, .adventure__img4__h2{
+        width: 130px;
+    }
+    .adventure__arrow img{
+        display: none;
+    }
+    .card__img{
+        width: 130px;
+    }
+    .tour-chennai__card h3{
+        width: 130px;
+        text-align: center;
+    }
+    .amount{
+        width: 130px;
+        text-align: center;
+    }
+    .explore__img1, .explore__img2, .explore__img3{
+        width: 130px;
+    }
+    .wanderer__img{
+        width: 300px;
+    }
+    .home__text{
+        display: none;
+    }
+    .home__1 img, .home__1 h4, .home__1 p{
+        width: 130px;
+    }
+    .travellerchoice-right img{
+        width: 300px;
+        margin-top: 30px;
+    }
+   
 
 }
