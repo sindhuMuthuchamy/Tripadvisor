@@ -341,9 +341,9 @@ body {
 .tour-chennai__card {
     margin-top: 10px;
 }
-.tour-chennai__card h3, .tour-chennai__card p{
+/* .tour-chennai__card h3, .tour-chennai__card p{
     text-align: center;
-}
+} */
 
 .tour-chennai__image {
     display: flex;
@@ -826,7 +826,10 @@ i:hover {
         display: none;
     }
     .homes{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 10%;
+        /* display: block; */
     text-align: center;
     }
     .travellerchoice{
@@ -920,30 +923,30 @@ i:hover {
         /* width: 130px; */
      }
     .adventure__img1, .adventure__img2, .adventure__img3, .adventure__img4{
-        width: 130px;
+        width: 150px;
     }
     .adventure__img1 img, .adventure__img2 img, .adventure__img3 img, .adventure__img4 img{
-        width: 130px;
+        width: 150px;
     }
     .adventure__img1__h2, .adventure__img2__h2, .adventure__img3__h2, .adventure__img4__h2{
-        width: 130px;
+        width: 150px;
     }
     .adventure__arrow img{
         display: none;
     }
     .card__img{
-        width: 130px;
+        width: 150px;
     }
     .tour-chennai__card h3{
-        width: 130px;
-        text-align: center;
+        width: 150px;
+        /* text-align: center; */
     }
     .amount{
-        width: 130px;
-        text-align: center;
+        width: 150px;
+        /* text-align: center; */
     }
     .explore__img1, .explore__img2, .explore__img3{
-        width: 130px;
+        width: 150px;
     }
     .wanderer__img{
         width: 300px;
@@ -951,13 +954,104 @@ i:hover {
     .home__text{
         display: none;
     }
+    .home__1 img{
+        height:150px;
+    }
     .home__1 img, .home__1 h4, .home__1 p{
-        width: 130px;
+        width: 150px;
+        /* height: 150px; */
     }
     .travellerchoice-right img{
         width: 300px;
         margin-top: 30px;
-    }
-   
+    }  
+}
 
+@media screen and (max-width:350px) {
+    .navbar {
+        font-size: 12px;
+    }
+
+    .title__s5 {
+        display: block;
+    }
+    /* .tripimg{
+        display: flex;
+        flex-direction: column;
+    }
+    .tripimg__text{
+        width: 200px;
+        padding-top: 0;
+    }
+    .tripimg__text__p, .tripimg__text h1{
+        font-size: 12px;
+    }
+    .tripimg__text__button, 
+    .tripimg__text__p, 
+    .tripimg__text__small{
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+    /* .tripimg__mob{
+        width: 80%;
+    } */
+ /* .tripimg__mob img{ 
+        
+        width: 300px; */
+        /* margin-top: 50%; */
+    /* }  */
+    /* .adventure{
+        
+    } */ 
+     .tripimg{
+        display: none;
+     }
+     .tripimg-600{
+        text-align: center;
+        display: block;
+        /* width: 130px; */
+     }
+    .adventure__img1, .adventure__img2, .adventure__img3, .adventure__img4{
+        width: 150px;
+    }
+    .adventure__img1 img, .adventure__img2 img, .adventure__img3 img, .adventure__img4 img{
+        width: 150px;
+    }
+    .adventure__img1__h2, .adventure__img2__h2, .adventure__img3__h2, .adventure__img4__h2{
+        width: 150px;
+    }
+    .adventure__arrow img{
+        display: none;
+    }
+    .card__img{
+        width: 150px;
+    }
+    .tour-chennai__card h3{
+        width: 150px;
+        /* text-align: center; */
+    }
+    .amount{
+        width: 150px;
+        /* text-align: center; */
+    }
+    .explore__img1, .explore__img2, .explore__img3{
+        width: 150px;
+    }
+    .wanderer__img{
+        width: 300px;
+    }
+    .home__text{
+        display: none;
+    }
+    .home__1 img{
+        height:150px;
+    }
+    .home__1 img, .home__1 h4, .home__1 p{
+        width: 150px;
+        /* height: 150px; */
+    }
+    .travellerchoice-right img{
+        width: 300px;
+        margin-top: 30px;
+    }  
 }
