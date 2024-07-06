@@ -1053,7 +1053,8 @@ i:hover {
         /* height: 150px; */
     }
     .travellerchoice-right img{
-        width: 300px;
-        margin-top: 30px;
+        /* width: 300px;
+        margin-top: 30px; */
+        width: 100%;
     }  
 }
